@@ -1,0 +1,53 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.nav-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar {
+    padding: 1.1rem !important;
+}
+
+.ContWidth {
+    padding: 200px 28px 0px 28px;
+    vertical-align: middle;
+
+}
+
+.blgImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footImg {
+    width: 60px;
+    height: 60px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    ...
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    ...
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    ...
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    ...
+}
