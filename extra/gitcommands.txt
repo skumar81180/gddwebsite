@@ -1,0 +1,63 @@
+echo "# gddwebsite" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/skumar81180/gddwebsite.git
+git push -u origin master
+
+
+// to check the status of a git reposiory
+// this command is very useful in various conditions
+git status
+
+// to intialize a empty repository in a folder
+git init
+
+// to add files in the staging area to added in git repository by file name 
+// also git starts tracking the file now on
+git add <file name>
+
+// to add all files & folder in the staging area to be added in git repository
+// also git starts tracking the file now on
+git add .		// or
+git add --a
+
+// to commit all the files in the git repository with comments.
+git commit -m "comments"
+
+// to check the commit logs in the git repository
+git log
+
+// to completely remove or delete the git ropository from the project directory
+rm -rf .git
+
+// to clone a git repository from a hosting website
+git clone <url of the repo>
+
+// to switch between differen branches in the repository
+git switch <branch name>
+
+// to connect to a remote ropository on a server or hosting site
+git remote add <name> <url of the repository>
+
+// to check which branch is your current branch
+git branch
+
+// to convert a custom .git folder into a git repository
+git init --bare
+
+// to compare the difference between the working area and the staging area
+git diff
+
+// to compare commited with the staged area
+git diff --staged
+
+// to commit all tracked files without adding them to staging area
+git commit -a -m "comment"
+
+// to rename a file in a git repo using git command
+git mv <old name> <new name>
+
+// to remove a file from a git repo using git command
+git rm <file name>
